@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Ugly vegetables </title>
+
+	<link rel="stylesheet" href="animate.css">
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
+
+	<style type="text/css">
+		 @font-face {
+	      font-family: 'GmarketSansBold';
+	      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+	      font-weight: normal;
+	      font-style: normal;}
+
+	      @font-face {
+	      font-family: 'GmarketSansMedium';
+	      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+	      font-weight: normal;
+	      font-style: normal;}
+
+	      @font-face {
+	      font-family: 'GmarketSansLight';
+	      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+	      font-weight: normal;
+	      font-style: normal;}
+
+		body{
+		margin: 0;
+		overflow-x: hidden;
+		background-color: #FF3B01;}
+
+		div{
+			margin: 0;
+		}
+
+		.header{
+			height: 110px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.menu{
+			width: 70px;
+			text-align: left;
+			margin-right: 1250px;
+			margin-top: 35px;
+		}
+
+		.gamebutton{
+			width: 150px;
+			text-align: right;
+			margin-top: 20px;
+		}
+
+		.gamebutton-ani{
+				animation: scale 1.5s infinite;
+				}
+
+		@keyframes scale{
+				from{transform: scale(0.8,0.8);}
+				to{transform: scale(1.0,1.0);}
+			}
+
+		.gamebutton-ani2{
+			animation: rotate 1s infinite linear;
+		}
+
+		@keyframes rotate{
+				0%{transform:rotateY(0deg);}
+				100%{transform:rotateY(180deg);}
+			}
+
+		.title{
+			z-index: 5;
+			position: absolute;
+		}
+
+		.sticker{
+			object-fit: cover;
+		}
+
+		.sticker:hover{
+			transform: scale(1.1,1.1);
+			transition: all ease 0.3s;
+		}
+
+		.section2{ padding-top: 650px;
+				   padding-bottom: 0px;}
+
+		footer{	border-top:2px solid black;
+				margin: 30px;
+				text-align: center;
+				padding-top: 20px;}
+
+		h1{ font-family: GmarketSansBold;
+	        color: black;
+	        font-size: 1.5em;
+	        line-height: 1.5;
+	        text-align: center;}
+
+		.footerA{	font-family: GmarketSansBold;
+			        color: black;
+			        font-size: 1.0em;
+			        line-height: 1.6;}
+
+		.footerB{	font-family: GmarketSansBold;
+			        color: black;
+			        font-size: 0.8em;
+			        line-height: 1.4;}
+	</style>
+</head>
+<body>
+	<section class="header">
+		<a href="https://2hannah.github.io/Ugly-vegetables-game/">
+			<img src="gameBut2.svg" class="gamebutton gamebutton-ani2" style="right: 40px; top: 5px; display: block; position: absolute; cursor: pointer;">
+		</a>
+
+		<a href="https://2hannah.github.io/Ugly-vegetables-game/">
+			<img src="gameBut2.svg" class="gamebutton gamebutton-ani2" style="left: 40px; top: 5px; display: block; position: absolute; cursor: pointer;">
+		</a>
+	</section>
+	<section class="section2">
+		<img id="number" src="number-position2.svg" style="width: 1000px; left: 260px; top: 40px; display: block; position: absolute; cursor: pointer;">
+		<img id="topic" src="topic-position.svg" style="width: 1530px; left: 8px; top: 130px; display: block; position: absolute; cursor: pointer;">
+
+		<a href="https://2hannah.github.io/Ugly-vegetables-sub1/">
+			<img id="sticker1" src="label1.svg" class="sticker animated drag" style="width: 240px; left: 80px; top: 300px; display: block; position: absolute; cursor: pointer;">
+		</a>
+
+		<a href="https://2hannah.github.io/Ugly-vegetables-sub3/">
+			<img id="sticker2" src="label2.svg" class="sticker animated drag" style="width: 230px; left: 400px; top: 100px; display: block; position: absolute; cursor: pointer;">
+		</a>
+		<a href="https://2hannah.github.io/Ugly-vegetables-sub4/">
+			<img id="sticker3" src="label3.svg" class="sticker animated drag" style="width: 220px; left: 500px; top: 490px; display: block; position: absolute; cursor: pointer;">
+
+		<a href="https://2hannah.github.io/Ugly-vegetables-sub5/">
+			<img id="sticker4" src="label4.svg" class="sticker animated drag" style="width: 210px; left: 880px; top: 320px; display: block; position: absolute; cursor: pointer;">
+		</a>
+		<a href="https://2hannah.github.io/Ugly-vegetables-sub2/">
+			<img id="sticker5" src="label5.svg" class="sticker animated drag" style="width: 230px; left: 1150px; top: 150px; display: block; position: absolute; cursor: pointer;">
+		</a>
+			<img id="sticker6" src="label6.svg" class="sticker animated drag" style="width: 180px; left: 1220px; top: 500px; display: block; position: absolute; cursor: pointer;">
+
+		<footer>
+			<h1>UGLY VEGETABLES</h1>
+			<p class="footerA">
+				The project was created to change the negative perception of ugly vegetables by informing them about ugly vegetables
+				<br>
+				이 프로젝트는 못난이 농산물에 대해 알림으로써 못난이 농산물에 대한 부정적인 인식을 변화시키기 위해 제작되었습니다
+				
+			</p>
+
+			<p class="footerB">
+				Designed by LEEHAENA ©2021 all rights reserved
+				<br>
+		    	Contact: 7haena7@gmail.com
+		    </p>
+		</footer>
+
+	</section>
+
+	<script type="text/javascript">
+		(function(){
+		var d = false;
+		var target,dx,dy;
+		var t = document.getElementsByClassName("drag");
+		for(var i=0; i<t.length; i++){
+			t[i].style.display = "block";
+			t[i].style.position = "absolute";
+			t[i].style.cursor = "pointer";
+			t[i].ondragstart = function(e){e.preventDefault();};
+			t[i].onmousedown = function(e){ d = true; dx = e.offsetX; dy = e.offsetY; target = e.target;}
+			t[i].onmouseup = function(){ d = false;}
+			window.onmousemove = function(e){ 
+				if(d){ target.style.left = (e.clientX - dx) + "px";
+					target.style.top = (e.clientY - dy) + "px";}
+			}
+		}
+		})();
+
+		sticker1.onmouseover=function()
+			{sticker1.src="label1-.svg"
+			topic.src="topic-1.svg"
+			number.src="number-1.svg"}
+		sticker1.onmouseout=function()
+			{sticker1.src="label1.svg"
+			topic.src="topic-position.svg"
+			number.src="number-position2.svg"}
+
+		sticker2.onmouseover=function()
+			{sticker2.src="label2-.svg"
+			topic.src="topic-2.svg"
+			number.src="number-3.svg"}
+		sticker2.onmouseout=function()
+			{sticker2.src="label2.svg"
+			topic.src="topic-position.svg"
+			number.src="number-position2.svg"}
+
+		sticker3.onmouseover=function()
+			{sticker3.src="label3-.svg"
+			topic.src="topic-3.svg"
+			number.src="number-4.svg"}
+		sticker3.onmouseout=function()
+			{sticker3.src="label3.svg"
+			topic.src="topic-position.svg"
+			number.src="number-position2.svg"}
+
+		sticker4.onmouseover=function()
+			{sticker4.src="label4-.png"
+			topic.src="topic-4.svg"
+			number.src="number-5.svg"}
+		sticker4.onmouseout=function()
+			{sticker4.src="label4.svg"
+			topic.src="topic-position.svg"
+			number.src="number-position2.svg"}
+			
+		sticker5.onmouseover=function()
+			{sticker5.src="label5-.png"
+			topic.src="topic-5.svg"
+			number.src="number-2.svg"}
+		sticker5.onmouseout=function()
+			{sticker5.src="label5.svg"
+			topic.src="topic-position.svg"
+			number.src="number-position2.svg"}
+
+	</script>
+</body>
+</html>
